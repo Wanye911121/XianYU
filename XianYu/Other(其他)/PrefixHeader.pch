@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  XianYu
+//
+//  Created by ZpyZp on 15/10/24.
+//  Copyright © 2015年 berchina. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "MacroDefine.h"
+#import "XYButton.h"
+#import "XYViewTool.h"
+#import "XYBaseTableViewController.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+Extension.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

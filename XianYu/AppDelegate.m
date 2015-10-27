@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XYTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+
+    XYTabBarViewController *tabBarViewController = [[XYTabBarViewController alloc] init];
+    [tabBarViewController.tabBar setBackgroundImage:[UIImage imageNamed:@"tapbar_top_line"]];
+//    
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 5, self.window.frame.size.width, 44)];
+    backView.backgroundColor = [UIColor whiteColor];
+    [tabBarViewController.tabBar insertSubview:backView atIndex:0];
+    tabBarViewController.tabBar.opaque = YES;
+    
+    self.window.rootViewController =tabBarViewController;
+    //4.显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
