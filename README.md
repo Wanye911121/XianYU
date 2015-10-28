@@ -8,3 +8,5 @@
 页面跳转转场动画效果
 
 封装刷新控件，仿闲鱼动画效果
+
+![image](https://github.com/MikeZhangpy/XianYU/XianYu/xianyu.gif)  
