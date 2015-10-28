@@ -65,6 +65,8 @@ static NSString *const ID =@"collectionCell";
     
     [self createLocalData];
     
+    [self setupRefresh];
+    
 }
 
 -(NSArray *)trendsFrameWithStatus:(NSArray *)trendsArray
@@ -161,6 +163,21 @@ static NSString *const ID =@"collectionCell";
     [self.headView addSubview:AdScrollView];
     self.adView = AdScrollView;
 
+}
+
+-(void)setupRefresh
+{
+    XYRefreshHeader *header = [XYRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(headRefresh) ];
+
+    self.goodListView.header = header;
+}
+
+-(void)headRefresh
+{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 结束刷新
+        [self.goodListView.header endRefreshing];
+    });
 }
 
 -(void)changeNav
