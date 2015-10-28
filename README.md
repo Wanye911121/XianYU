@@ -9,4 +9,4 @@
 
 封装刷新控件，仿闲鱼动画效果
 
-![image](https://github.com/MikeZhangpy/XianYu/xianyu.gif)  
+![image](https://github.com/MikeZhangpy/XianYU/xianyu.gif)  
