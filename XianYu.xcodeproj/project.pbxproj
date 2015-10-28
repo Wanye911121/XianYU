@@ -44,6 +44,7 @@
 		074538A91BDFC37500D4C8B4 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 074538951BDFC37500D4C8B4 /* UIScrollView+MJRefresh.m */; };
 		074538AA1BDFC37500D4C8B4 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 074538971BDFC37500D4C8B4 /* UIView+MJExtension.m */; };
 		074538AD1BDFCEC800D4C8B4 /* XYRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 074538AC1BDFCEC700D4C8B4 /* XYRefreshHeader.m */; };
+		074538AF1BE0677500D4C8B4 /* CityRefreshList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074538AE1BE0677500D4C8B4 /* CityRefreshList.plist */; };
 		0758FB551BDDD52F00814523 /* HomeGoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758FB541BDDD52F00814523 /* HomeGoodsTableViewCell.m */; };
 		0758FB5B1BDDD59800814523 /* HomeGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758FB5A1BDDD59800814523 /* HomeGoodsModel.m */; };
 		0758FB5E1BDDD5CA00814523 /* HomeGoodsFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758FB5D1BDDD5CA00814523 /* HomeGoodsFrame.m */; };
@@ -153,6 +154,7 @@
 		074538971BDFC37500D4C8B4 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		074538AB1BDFCEC700D4C8B4 /* XYRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRefreshHeader.h; sourceTree = "<group>"; };
 		074538AC1BDFCEC700D4C8B4 /* XYRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRefreshHeader.m; sourceTree = "<group>"; };
+		074538AE1BE0677500D4C8B4 /* CityRefreshList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityRefreshList.plist; sourceTree = "<group>"; };
 		0758FB531BDDD52F00814523 /* HomeGoodsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeGoodsTableViewCell.h; sourceTree = "<group>"; };
 		0758FB541BDDD52F00814523 /* HomeGoodsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeGoodsTableViewCell.m; sourceTree = "<group>"; };
 		0758FB591BDDD59800814523 /* HomeGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeGoodsModel.h; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 			children = (
 				077685C91BDA218C0055F69B /* Info.plist */,
 				0776861A1BDB17910055F69B /* PrefixHeader.pch */,
+				074538AE1BE0677500D4C8B4 /* CityRefreshList.plist */,
 			);
 			path = "Other(其他)";
 			sourceTree = "<group>";
@@ -807,6 +810,7 @@
 				077685C51BDA218C0055F69B /* Assets.xcassets in Resources */,
 				076905CA1BDDC9A60089DB94 /* HomeCollectionViewCell.xib in Resources */,
 				074538A61BDFC37500D4C8B4 /* MJRefresh.bundle in Resources */,
+				074538AF1BE0677500D4C8B4 /* CityRefreshList.plist in Resources */,
 				076B44F41BDB6B2600847745 /* XYLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

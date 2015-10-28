@@ -97,7 +97,6 @@
             [UIView animateWithDuration:0.5 animations:^{
                 self.secondImageView.height +=10;
             } completion:^(BOOL finished) {
-                
             }];
 
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -108,7 +107,7 @@
             break;
         case MJRefreshStateRefreshing:
         {
-            self.gifView.centerX = SCREEN_WIDTH/2-25;
+            self.gifView.centerX = SCREEN_WIDTH/2;
             self.gifView.hidden = NO;
             self.secondImageView.height -=10;
             self.topImageView.image = [UIImage imageNamed:@"refresh_loading"];

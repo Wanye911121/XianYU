@@ -85,7 +85,7 @@
     if (self.stateLabel.hidden && self.lastUpdatedTimeLabel.hidden) {
         self.gifView.contentMode = UIViewContentModeCenter;
     } else {
-        self.gifView.contentMode = UIViewContentModeRight;
+        self.gifView.contentMode = UIViewContentModeCenter;
         self.gifView.mj_w = self.mj_w * 0.5 - 90;
     }
 }
